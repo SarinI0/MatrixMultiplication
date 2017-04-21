@@ -251,6 +251,7 @@ vector<vector<double>> MatrixOp::Primitivemulti(MatrixOp& mo, vector<vector<doub
 		}
 	return Multip;
 }
+
 vector<vector<double>> MatrixOp::AddMat(MatrixOp& mo, vector<vector<double>>& O,vector<vector<double>>& M,int i, int j){
 	vector<vector<double>> AddPro;
 	AddPro.resize(i);
